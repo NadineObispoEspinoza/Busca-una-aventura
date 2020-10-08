@@ -1,0 +1,91 @@
+.container{
+    height: 45%;
+    background-image: url(montaña.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.foto{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 40px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-block-start: 1rem;
+    
+}
+.header{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 0.5rem;
+margin-left: 20px;
+}
+p{
+    color:white;
+    margin-left: 2rem;
+    margin-bottom: 0px;
+  
+}
+h1{
+    color: rgb(230, 247, 83);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    
+}
+h2{
+    color: rgb(230, 247, 83);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    
+}
+p.t1{
+    margin-left: 1.5rem;  
+    color: rgb(0,0,0);
+}
+.buscar {
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    width: 83%;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+input {
+    margin-left: 10px;
+    width: 85%;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    background-color: wheat;
+   
+}
+
+.lupa {
+    fill: currentColor;
+    border: 0px;
+    margin-left: 20px;
+}
+
+input:focus {
+    outline: 0;
+    border: 0;
+}
+
+img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 30px;
+}
